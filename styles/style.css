@@ -1,1 +1,115 @@
-/* место для вашего кода */
+address {
+    margin: 0;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 92px 49px 92px 51px;
+    
+}
+
+.header__menu {
+    color: #000;
+    align-self: center; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header__links-list {
+    display: flex;  
+    column-gap: 32px;  
+    list-style: circle;
+    text-wrap: nowrap;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__logo{
+    justify-self: center;
+}
+
+.header__logo-image{
+    display: block;
+    height: 105px;
+    width: 148px;
+    margin-bottom: 4px;;
+    
+}
+
+.header__adress {
+    align-self: center;
+    justify-self: end;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 753.94px;
+    background-image: url("/images/cover.jpg");
+    background-color: #000;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6) 
+}
+
+.cover__title {
+    
+    position: absolute;
+    z-index: 1;
+    inset: 165px 50px 237px 50px;
+    color: #FFF;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.aligned-text-center {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 100px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.aligned-text-right {
+    display: block;
+    text-align: end;
+    color: #FFF;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 100px */
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
