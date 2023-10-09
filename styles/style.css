@@ -1,4 +1,3 @@
-
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -69,7 +68,7 @@
 
 .cover__title {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   padding: 165px 50px 135px 50px;
   color: #fff;
   font-size: 100px;
@@ -103,7 +102,7 @@
 
 .cover__description {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   margin-right: 50px;
   display: flex;
   justify-content: end;
@@ -221,45 +220,43 @@
 }
 
 .about__logo {
-    justify-self: center;
-    height: 240px;
-    background-color: #000;
-    border-radius: 50%;
-    width: 240px;
-    
+  justify-self: center;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 240px;
 }
 
 .about__logo-image {
-    padding: 63px 46px;
+  padding: 63px 46px;
 }
 
 .about__column {
-    padding-top: 101px;
-
+  padding-top: 101px;
 }
 
 .about__title {
-    margin-bottom: 99px;
-    color: #000;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+  margin-bottom: 99px;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .about__description-block {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  justify-content: space-between;
 }
 
 .about__text {
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer {
@@ -293,4 +290,3 @@
   height: 48px;
   column-gap: 50px;
 }
-
